@@ -1,1 +1,1 @@
-# TutorTime AUthentication API
+# TutorTime Authentication API
