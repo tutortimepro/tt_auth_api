@@ -1,0 +1,38 @@
+{
+  "name": "tt_api",
+  "version": "1.0.0",
+  "description": "API for tutor-time, a school registration system",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wabuluka/tt_api.git"
+  },
+  "keywords": [
+    "api",
+    "school",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "davies wabuluka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wabuluka/tt_api/issues"
+  },
+  "homepage": "https://github.com/Wabuluka/tt_api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18"
+  }
+}
